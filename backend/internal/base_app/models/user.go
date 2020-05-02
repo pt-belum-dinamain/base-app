@@ -10,7 +10,5 @@ type User struct {
 	Roles     []Role
 
 	CreatedAt time.Time
-	CreatedBy User
 	UpdatedAt time.Time
-	UpdatedBy User
 }
